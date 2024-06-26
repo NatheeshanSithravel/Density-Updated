@@ -7,7 +7,7 @@
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
-  <body style="background-color: 010121;">
+  <body>
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=960px height=600px tabindex="-1"></canvas>
       <div id="unity-loading-bar">
@@ -94,8 +94,8 @@
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
-        canvas.style.width = "100%";
-        canvas.style.height = "100%";
+        canvas.style.width = "480";
+        canvas.style.height = "300";
       }
 
       loadingBar.style.display = "block";
